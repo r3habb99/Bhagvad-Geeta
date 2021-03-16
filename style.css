@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Akaya Telivigala', cursive;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    background-image: url(media/bg1.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-repeat: no-repeat;
+}
+
+.navbar {
+    width: 88%;
+    margin: auto;
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 40px;
+    cursor: pointer;
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.content {
+    width: 100%;
+    position: absolute;
+    top: 25%;
+}
+
+/* .left-col {
+    margin-left: 6%;
+}
+
+.left-col h1 {
+    font-size: 60px;
+    color: #ffffff;
+    line-height: 90px;
+    float: left;
+    font-style: italic;
+} */
+
+.right-col {
+    float: right;
+    margin-right: 45%;
+    margin-top: 140px;
+    display: block;
+    align-items: center;
+}
+
+.right-col p {
+    font-size: 18px;
+    color: #ffffff;
+    text-align: center;
+    font-weight: 400;
+    margin-right: 30px;
+}
+
+#icon {
+    align-items: center;
+    width: 80px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+@media (min-width: 769px) and (max-width: 1280px) {
+    .content {
+        width: 100%;
+        position: absolute;
+        top: 35%;
+    }
+    .right-col {
+        float: right;
+        margin-right: 40%;
+        margin-top: 140px;
+        display: block;
+    }
+    .right-col p {
+        font-size: 18px;
+        color: #ffffff;
+        text-align: center;
+        font-weight: 400;
+        margin-right: 30px;
+        text-align: center;
+        justify-content: center;
+    }
+    #icon {
+        width: 80px;
+        cursor: pointer;
+        margin-top: 20px;
+        margin-right: 40px;
+    }
+    .logo {
+        width: 30px;
+        cursor: pointer;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .content {
+        width: 100%;
+        position: absolute;
+        top: 35%;
+    }
+    .right-col {
+        float: right;
+        margin-right: 35%;
+        margin-top: 140px;
+        display: block;
+        text-align: center;
+    }
+    .right-col p {
+        font-size: 18px;
+        color: #ffffff;
+        text-align: center;
+        font-weight: 400;
+        margin-right: 30px;
+        text-align: center;
+        justify-content: center;
+    }
+    #icon {
+        width: 80px;
+        cursor: pointer;
+        margin-top: 20px;
+        margin-right: 40px;
+    }
+    .logo {
+        width: 30px;
+        cursor: pointer;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .content {
+        width: 100%;
+        position: absolute;
+        top: 35%;
+    }
+    .right-col {
+        float: right;
+        margin-right: 28%;
+        margin-top: 140px;
+        display: block;
+        text-align: center;
+    }
+    .right-col p {
+        font-size: 20px;
+        color: #ffffff;
+        text-align: center;
+        font-weight: 400;
+        margin-right: 2px;
+        justify-items: center;
+    }
+    #icon {
+        width: 80px;
+        cursor: pointer;
+        margin-top: 20px;
+        margin-right: 40px;
+    }
+    .logo {
+        width: 30px;
+        cursor: pointer;
+    }
+}
